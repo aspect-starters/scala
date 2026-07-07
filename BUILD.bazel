@@ -1,0 +1,10 @@
+"""Targets in the repository root"""
+
+exports_files(
+    [
+    ],
+    visibility = ["//:__subpackages__"],
+)
+
+# The gazelle binary + `gazelle` runner target live in //tools/gazelle (the
+# default target for `aspect gazelle`). Run `aspect gazelle` to generate BUILDs.
